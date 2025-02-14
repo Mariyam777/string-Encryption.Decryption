@@ -20,7 +20,7 @@ public class Main {
 
     // Method for Caesar Cipher decryption
     public static String decCaesar(String encryptedText, int shift) {
-        return encCaesar(encryptedText, 26 - shift);  // Decrypt by shifting in the opposite direction
+        return encCaesar(encryptedText, 26 - shift);  
     }
 
     // Method for Vigenère Cipher encryption
